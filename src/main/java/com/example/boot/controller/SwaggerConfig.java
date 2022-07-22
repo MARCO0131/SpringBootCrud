@@ -28,8 +28,8 @@ public class
 SwaggerConfig extends WebMvcConfigurationSupport {
 
 
- public static final Contact CONTACT = new Contact("Murali", "http://muralitechblog.com/",
-         "muralitechblog@gmail.com");
+ public static final Contact CONTACT = new Contact("Ritesh", "https://github.com/MARCO0131",
+         "riteshbadgotya@gmail.com");
  public static final ApiInfo DEFAULT_API = new ApiInfo("swagger", "Swagger Documentation", "1.0", "urn:tos", CONTACT,
          "Apache 2.0", "http://www.apache.org/licenses/LICENSE-2.0", new ArrayList<>());
  public static final Set<String> consumes = new HashSet<>(Arrays.asList("application/json"));
